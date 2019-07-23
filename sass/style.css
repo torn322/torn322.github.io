@@ -1,0 +1,482 @@
+
+:root {
+  --k:1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  background-image: url(../img/nutrition-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 1.042vw;
+  background-size: cover;
+}
+
+body a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 4.208vw;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0.521vw 1.042vw rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.521vw 1.042vw rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+}
+
+header .head-container {
+  width: 77.604vw;
+  margin: 0 auto;
+}
+
+header strong {
+  font-size: calc(var(--k) *  0.938vw);
+  color: #3BA2E8;
+}
+
+.navbar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.521vw 0 0 0;
+}
+
+.navbar nav {
+  width: 40.063vw;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: calc(var(--k) *  1.042vw);
+  text-transform: uppercase;
+}
+
+.navbar ul a {
+  color: #033663;
+}
+
+.navbar ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: left;
+  list-style: none;
+  padding: 0 1.563vw;
+  border: none;
+  height: 3vw;
+  border-left: 0.052vw solid #D8D8D8;
+}
+
+
+.navbar ul li:hover a {
+  color: #3BA2E8;
+  text-shadow: 0px 0.521vw 1.563vw rgba(3, 54, 99, 0.5);
+}
+
+.navbar ul li:last-child {
+  border-right: 0.052vw solid #D8D8D8;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 5.292vw;
+}
+
+.logo-img {
+  width: 3.698vw;
+  height: 2.708vw;
+  background-image: url(../img/logo.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 1.563vw;
+}
+
+.user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 0;
+}
+
+.user-photo {
+  display: block;
+  width: 2.760vw;
+  height: 2.760vw;
+  margin-right: 1.042vw;
+  background-image: url(../img/usr.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 8.594vw auto;
+  padding: 3.906vw;
+  width: 71.875vw;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 2.083vw;
+  -webkit-box-shadow: 0 0.521vw 3.646vw black;
+          box-shadow: 0 0.521vw 3.646vw black;
+}
+
+#section-1 .section-1_container {
+  width: 56.250vw;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: calc(var(--k) *  3.229vw);
+  color: #033663;
+  font-weight: normal;
+}
+
+.choice-of-diet {
+  margin-top: 3.125vw;
+}
+
+.choice-of-diet ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  font-size: calc(var(--k) *  1.354vw);
+  margin: 1.823vw 0;
+  padding: 0;
+}
+
+.choice-of-diet_week {
+  width: 36.198vw;
+}
+
+.choice-of-diet_day {
+  width: 51.563vw;
+}
+
+.form-active {
+  display: block;
+  background-color: #EE5698;
+  border-radius: 2.604vw;
+  color: #fff;
+  padding: 0.938vw 2.604vw;
+}
+
+.form-inactive {
+  cursor: pointer;
+}
+
+.form-inactive:hover {
+  color: #EE5698;
+}
+
+.form-disabled {
+  color: #7A7A7A;
+  cursor: no-drop;
+}
+
+#section-2 {
+  margin-top: 6.771vw;
+}
+
+.container {
+  margin: 1.042vw auto;
+  padding: 2.604vw 2.083vw;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 2.083vw;
+  -webkit-box-shadow: 0 0.521vw 3.646vw rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.521vw 3.646vw rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0 0 0.256vw;
+  margin: 0 0 0 1.042vw;
+  font-size: calc(var(--k) *  2.188vw);
+  font-weight: bold;
+  border-bottom: 0.156vw solid #EE5698;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: calc(var(--k) *  1.458vw);
+  font-weight: bold;
+  color: #033663;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+  font-size: calc(var(--k) *  1.354vw);
+  font-weight: bold;
+}
+
+.recipe {
+  list-style: none;
+  margin: 2.083vw 0 0 0;
+  padding: 0;
+  font-size: calc(var(--k) *  1.354vw);
+  font-weight: 500;
+  width: 34.896vw;
+}
+
+.recipe li {
+  padding-bottom: .5vw;
+}
+
+.recipe li:after {
+  content: " ";
+  display: block;
+  border: 0.052vw solid #CDCCCB;
+  margin-top: 0.781vw;
+}
+
+.recipe-photo img {
+  display: block;
+  width: 21.354vw;
+  height: 21.354vw;
+  border-radius: 500px;
+  -webkit-box-shadow: 1.042vw -0.521vw 0px rgba(59, 162, 232, 0.5);
+          box-shadow: 1.042vw -0.521vw 0px rgba(59, 162, 232, 0.5);
+  float: right;
+  margin-top: -18.229vw;
+  margin-right: 1.042vw;
+}
+
+small {
+  color: #848181;
+  font-size: calc(var(--k) *  0.833vw);
+}
+
+.energy-value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 34.896vw;
+  padding: 0;
+  margin: 1.563vw 0 0 0;
+  list-style: none;
+  color: #033663;
+  font-size: calc(var(--k) *  1.354vw);
+  font-weight: bold;
+}
+
+.cooking-method {
+  padding-left: 0.781vw;
+  margin-top: 2.083vw;
+  border-left: 0.156vw solid #EE5698;
+  font-size: calc(var(--k) *  0.938vw);
+}
+
+.cooking-method ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.cooking-method ul ol {
+  padding: 0;
+  margin-left: 0.781vw;
+}
+
+.cooking-method ul li {
+  padding-top: 0.521vw;
+}
+
+section {
+  margin-bottom: 5.208vw;
+}
+
+@media (max-width: 1024px) {
+  .cooking-method {
+    font-size: calc(var(--k) *  1.2vw);
+  }
+  h4 {
+    font-size: calc(var(--k) *  1.5vw);
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar nav {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  :root {
+    --k:1.2;
+  }
+
+  .logo {
+    margin-right: 3.292vw;
+  }
+
+  #section-1 .section-1_container {
+    width: 100%;
+  }
+
+  .choice-of-diet_week {
+    width: 43.198vw;
+  }
+
+  .choice-of-diet_day {
+    width: 100%;
+  }
+
+
+}
+
+@media (max-width: 425px) {
+  :root{
+    --k:2;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .recipe, .energy-value {
+    width: 61.882vw;
+  }
+
+  .wrapper {
+    padding: 3.906vw 2vw;
+    margin: 24vw 0;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .choice-of-diet_week {
+    width: 67.198vw;
+  }
+
+  .recipe li {
+    padding-bottom: 1.5vw;
+}
+
+.recipe li:after {
+  border: 0.152vw solid #CDCCCB;
+  margin-top: 1.781vw;
+}
+
+.cooking-method ul ol {
+ 
+  margin-left: 2.781vw;
+}
+.recipe-photo img {
+  margin-top: -37vw;
+  width: 26.354vw;
+  height: 26.354vw;
+}
+
+body {
+  background-color: #cacaca;
+  background-image: none;
+}
+
+header {
+  height: 12vw;
+}
+
+  .logo {
+    margin: 0;
+  }
+
+  .logo-text {
+    display: none;
+  }
+  
+  .logo-img  {
+    width: 9.698vw;
+    height: 7.2vw;
+    margin: 0;
+  }
+  
+  .user {
+   display: none;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    padding: 2.321vw 0 0 0;
+  }
+
+  .navbar ul {
+    font-size: 2.5vw;
+  }
+
+  .navbar ul li {
+    height: 7vw;
+  }
+
+  header .head-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 7vw;
+}
+
+.choice-of-diet ul {
+  margin: 3vw 0;
+}
+
+.form-active {
+  border-radius: 5.604vw;
+  padding: 1.7vw 3.804vw;
+}
+
+.cooking-method ul li {
+  padding-top: 2.521vw;
+}
+
+.energy-value {
+  margin: 3.563vw 0 3vw 0px;
+}
+
+section {
+  margin-bottom: 13.208vw;
+}
+
+}
+
+/*# sourceMappingURL=style.css.map */

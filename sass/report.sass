@@ -1,0 +1,60 @@
+.report
+    background-image: url(../img/private/report-bg.jpg)
+    & section
+        margin-bottom: 1.2vw
+    h3
+        font-weight: normal
+        margin: 0 0 1vw 0
+    label
+        font-size: 1.042vw
+        
+
+
+
+fildset
+    display: block
+    box-sizing: border-box
+    width: 100%
+    background-color: rgba(#fff, .6)
+    box-shadow: 0 0 2.604vw gray
+    margin-bottom: 2vw
+    padding: 2vw
+    border-radius: 2.083vw
+    textarea
+        display: none
+        box-sizing: border-box
+        border-radius: 2.083vw
+        padding: 0.521vw 1.042vw
+        margin-top: 1.042vw
+        width: 49.219vw
+        height: 5.208vw
+        resize: none
+        &:focus
+            outline: none
+
+
+
+.form_yes
+    margin-bottom: .5vw
+
+@media (max-width: 1024px)
+    label
+        font-size: 1.3vw !important
+
+
+@media (max-width: 768px)
+    textarea
+        height: 8.208vw !important
+    label
+        font-size: 2vw !important
+    .report h3
+    font-size: 4vw 
+
+@media (max-width: 425px)
+    textarea
+        height: 12.208vw !important
+        width: 70vw !important
+    label
+        font-size: 3vw !important
+    .report h3
+    font-size: 5vw 

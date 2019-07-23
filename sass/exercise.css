@@ -1,0 +1,42 @@
+.exercise {
+  background-image: url(../img/private/exercise-bg.jpg);
+}
+
+header {
+  z-index: 20;
+}
+
+video {
+  display: block;
+}
+
+.video {
+  -webkit-mask-image: -webkit-radial-gradient(circle, white 70%, black 50%);
+  -webkit-transform: rotate(0deg);
+  border-radius: 3.083vw;
+  border: 0.260vw solid #fff;
+  overflow: hidden;
+  width: 64.271vw;
+}
+
+.video-wrap {
+  position: relative;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 0 3.646vw black;
+          box-shadow: 0 0 3.646vw black;
+  border-radius: 3.646vw;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+@media (max-width: 425px) {
+  .video {
+    width: 90vw;
+  }
+  .wrapper-exercise {
+    margin: 24vw auto 5vw auto;
+    height: 90vh;
+  }
+}
+/*# sourceMappingURL=exercise.css.map */
